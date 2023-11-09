@@ -12,7 +12,7 @@
             "value": 2
         },
         "ScriptUri": {
-            "value": "https://stpordctautomationweu.blob.core.windows.net/scripts/CrowdStrike.ps1"
+            "value": "https://github.com/mounireddin/avds/blob/main/script.ps1"
         },
         "VirtualMachineIndex": {
             "value": 1
