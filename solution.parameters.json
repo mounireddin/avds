@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Location": {
+            "value": "westeu"
+        },
+        "NamePrefix": {
+            "value": "vmavdpl01"
+        },
+        "NumberOfVms": {
+            "value": 2
+        },
+        "ScriptUri": {
+            "value": "https://stpordctautomationweu.blob.core.windows.net/scripts/CrowdStrike.ps1"
+        },
+        "VirtualMachineIndex": {
+            "value": 1
+        }
+    }
+}
